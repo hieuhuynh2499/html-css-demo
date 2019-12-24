@@ -1,0 +1,55 @@
+.underline--yellow {
+    position: relative;
+    z-index: 10;
+}
+
+.underline--yellow::after {
+    position: absolute;
+    content: "";
+    height: 30%;
+    width: 100%;
+    bottom: 10%;
+    right: 0%;
+    background-color: #ffc050;
+    z-index: -10;
+}
+
+.btn {
+    padding: .8rem 2.5rem;
+    border-radius: 40px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: var(--Muli);
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.2s ease-out;
+}
+
+.btn-violet {
+    background: linear-gradient(to right, #828fd3 0%, #5e6dbe 51%, #5461aa 100%);
+    transition: all 0.2s ease-out;
+}
+
+.btn-yellow {
+    background: linear-gradient(to right, #ffcd73 0%, #f3b74c 51%, #d9a444 100%);
+}
+
+.btn-violet:hover,
+.btn-yellow:hover {
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
+    background: rgb(38, 181, 238);
+}
+
+.btn-read {
+    font-size: 0.9rem;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--Muli);
+    font-weight: 600;
+}
+
+.btn-read:hover {
+    color: #ffc050;
+}

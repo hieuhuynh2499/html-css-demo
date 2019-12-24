@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Roboto&display=swap');
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+:root {
+    /* font family */
+    --Muli: 'Muli', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
+    /* background-color*/
+    --gray_back: #f7f7f7;
+}
